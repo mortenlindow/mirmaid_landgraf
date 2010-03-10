@@ -1,0 +1,26 @@
+<div id="col-top"></div>
+<div id="col">
+
+<h3>Listing Libraries</h3>
+
+<div id="searchinfo"><%= page_entries_info @landgraf_libraries %></div>
+
+
+<%= will_paginate @landgraf_libraries, :params => params %>
+<br>
+<% if !@landgraf_libraries.empty? %>
+<table class="search">
+  <tr>
+		<th>Library name</th>
+		<th>Description</th>
+		<th>Malignancy</th>
+		<th>Tissue</th>
+	<tr>
+  <%= render @landgraf_libraries %>
+</table>
+<% end %>
+
+Plugin based on data from <a href="http://www.microrna.org">microrna.org</a>.
+
+</div> <!-- /col -->
+<div id="col-bottom"></div>

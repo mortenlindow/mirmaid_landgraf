@@ -1,0 +1,128 @@
+1.0.0.0	cardiovascular system
+1.1.0.0	cardiovascular system, heart
+	
+2.0.0.0	connective tissue
+
+2.1.0.0	connective tissue, adipose tissue
+2.2.0.0	connective tissue, bone
+2.2.1.0	connective tissue, bone, osteosarcoma cell
+2.2.2.0	connective tissue, bone, Ewing sarcoma cell
+2.2.3.0	connective tissue, bone, desmoplastic small round cell tumor
+2.3.0.0	connective tissue, skin
+2.3.1.0	connective tissue, skin, epidermis
+2.3.1.1	connective tissue, skin, epidermis, hair follicle
+2.3.2.0	connective tissue, skin, fibroblast
+	
+3.0.0.0	embryo
+
+3.1.0.0	embryo, embryonic stem cell
+3.2.0.0	embryo, embryonic fibroblast
+3.3.0.0	embryo, embryonic kidney cell
+3.4.0.0	embryo, germ cell tumor
+3.4.1.0	embryo, germ cell tumor, teratocarcinoma
+3.4.2.0	embryo, germ cell tumor, seminoma
+3.5.0.0	embryo, neuroblast
+3.5.1.0	embryo, neuroblast, astroblast
+3.5.1.1	embryo, neuroblast, astroblast, astroblastoma
+
+4.0.0.0	endocrine gland
+
+4.1.0.0	endocrine gland,  adrenal gland
+4.1.1.0	endocrine gland,  adrenal gland, pheochromocytoma
+4.2.0.0	endocrine gland,  pancreatic islet
+4.2.1.0	endocrine gland,  pancreatic islet, pancreatic alpha cell
+4.2.2.0	endocrine gland,  pancreatic islet, pancreatic beta cell
+4.3.0.0	endocrine gland,  pituitary gland
+4.4.0.0	endocrine gland,  thyroid gland
+4.4.1.0	endocrine gland,  thyroid gland, FRTL-5 cell
+
+5.0.0.0	gastrointestinal tract
+
+5.1.0.0	gastrointestinal tract, intestine
+5.1.1.0	gastrointestinal tract, intestine, large intestine
+5.1.1.1	gastrointestinal tract, intestine, large intestine, colon
+5.1.1.2	gastrointestinal tract, intestine, large intestine, colorectal carcinoma
+5.1.2.0	gastrointestinal tract, intestine, small intestine
+	
+6.0.0.0	hematopoietic system
+
+6.1.0.0	hematopoietic system, lymphoid lineage
+6.1.1.0	hematopoietic system, lymphoid lineage, B lineage
+6.1.1.1	hematopoietic system, lymphoid lineage, B lineage, pre-pre-B-lymphoblast
+6.1.1.2	hematopoietic system, lymphoid lineage, B lineage, pre-B-lymphoblast
+6.1.1.3	hematopoietic system, lymphoid lineage, B lineage, pre-B-lymphoblast [cALL]
+6.1.1.4	hematopoietic system, lymphoid lineage, B lineage, B-lymphocyte
+6.1.1.5	hematopoietic system, lymphoid lineage, B lineage, mantel cell lymphoma cell
+6.1.1.6	hematopoietic system, lymphoid lineage, B lineage, Burkitt Lymphoma cell
+6.1.1.7	hematopoietic system, lymphoid lineage, B lineage, large B-cell lymphoma cell
+6.1.1.8	hematopoietic system, lymphoid lineage, B lineage, follicular lymphoma cell
+6.1.1.9	hematopoietic system, lymphoid lineage, B lineage, Hodgkin Lymphoma cell
+6.1.1.10	hematopoietic system, lymphoid lineage, B lineage, marginal zone lymphoma cell
+6.1.1.11	hematopoietic system, lymphoid lineage, B lineage, plasmacytoma cell
+6.1.2.0	hematopoietic system, lymphoid lineage, T lineage
+6.1.2.1	hematopoietic system, lymphoid lineage, T lineage, T-lymphoblast
+6.1.2.2	hematopoietic system, lymphoid lineage, T lineage, T-lymphocyte CD4
+6.1.2.3	hematopoietic system, lymphoid lineage, T lineage, T-lymphocyte CD8
+6.1.3.0	hematopoietic system, lymphoid lineage, natural killer cell
+6.2.0.0	hematopoietic system, lymphoid tissue
+6.2.1.0	hematopoietic system, lymphoid tissue, spleen
+6.2.2.0	hematopoietic system, lymphoid tissue, thymus
+6.3.0.0	hematopoietic system, myeloid lineage
+6.3.1.0	hematopoietic system, myeloid lineage, myeloblast FAB M2
+6.3.2.0	hematopoietic system, myeloid lineage, pro-myelocyte FAB  M3
+6.3.3.0	hematopoietic system, myeloid lineage, myelomonocyte FAB M4
+6.3.4.0	hematopoietic system, myeloid lineage, monocyte FAB M5
+6.3.5.0	hematopoietic system, myeloid lineage, erythrocyte FAB M6
+6.3.6.0	hematopoietic system, myeloid lineage, granulocyte
+6.3.7.0	hematopoietic system, myeloid lineage, monocyte
+6.3.8.0	hematopoietic system, myeloid lineage, dendritic cell
+6.4.0.0	hematopoietic system, pluripotent hematopoietic stem cell
+
+7.0.0.0	kidney
+
+7.1.0.0	kidney, epithelial cell
+7.2.0.0	kidney, nephron
+7.2.1.0	kidney, nephron, renal corpuscle
+7.2.1.1	kidney, nephron, renal corpuscle, glomerulus
+7.2.2.0	kidney, nephron, renal tubule
+7.2.2.1	kidney, nephron, renal tubule, collecting duct
+
+8.0.0.0	liver
+
+8.1.0.0	liver, hepatocellular carcinoma cell
+
+9.0.0.0	nervous system
+
+9.1.0.0	nervous system, central nervous system
+9.1.1.0	nervous system, central nervous system, brain
+9.1.1.1	nervous system, central nervous system, brain, astrocytoma cell
+9.1.1.2	nervous system, central nervous system, brain, glioblastoma cell
+9.1.1.3	nervous system, central nervous system, brain, medulloblastoma
+9.1.2.0	nervous system, central nervous system, spinal cord
+9.1.2.1	nervous system, central nervous system, spinal cord, glioma
+9.2.0.0	nervous system, sympathetic ganglion
+9.2.1.0	nervous system, sympathetic ganglion, neuroblastoma cell
+9.3.0.0	nervous system, sense organ
+9.3.1.0	nervous system, sense organ, eye
+
+10.0.0.0	reproductive system
+
+10.1.0.0	reproductive system, female reproductive system
+10.1.1.0	reproductive system, female reproductive system, ovary
+10.1.2.0	reproductive system, female reproductive system, uterus
+10.1.2.1	reproductive system, female reproductive system, uterus, cervical carcinoma cell
+10.1.3.0	reproductive system, female reproductive system, placenta
+10.1.4.0	reproductive system, female reproductive system, breast
+10.1.4.1	reproductive system, female reproductive system, breast, adenocarcinoma
+10.1.4.2	reproductive system, female reproductive system, breast, ductal carcinoma
+10.1.4.3	reproductive system, female reproductive system, breast, mammary epithelium
+
+10.2.0.0	reproductive system, male reproductive system
+10.2.1.0	reproductive system, male reproductive system, testis
+10.2.2.0	reproductive system, male reproductive system, epididymis
+10.2.3.0	reproductive system, male reproductive system, prostate gland
+
+11.0.0.0	respiratory system
+
+11.1.0.0	respiratory system, lung
+11.1.1.0	respiratory system, lung, adenocarcinoma cell

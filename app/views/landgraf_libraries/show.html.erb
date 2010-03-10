@@ -1,0 +1,28 @@
+<div id="col-top"></div>    
+<div id="col" class="box">
+<h2><%= @landgraf_library.name %></h2>
+<table>
+  <tr><th>Library name</th><td><%= @landgraf_library.name %></td></tr>
+  <tr><th>Description</th><td><%= @landgraf_library.description %></td></tr>
+	<tr><th>Malignancy status</th><td><%= @landgraf_library.malignancy_status %></td></tr>
+	<tr><th>RNA amount used</th><td><%= @landgraf_library.RNA_amount_used %></td></tr>
+	<tr><th>Species</th><td><%= @landgraf_library.species.name %></td></tr>
+	<tr><th>Tissue classification</th><td><%= @landgraf_library.landgraf_tissue_type.description %></td></tr>
+</table>
+
+
+<div class="infobox">
+<h4><%= link_to_function "Expression Levels [#{@landgraf_library.landgraf_expression_levels.size}]", visual_effect(:toggle_blind,'expression_levels',:duration=>0.2)  %></h4>
+<div id="expression_levels" style="">
+<% if !@landgraf_library.landgraf_expression_levels.empty? %>
+<table class="search">
+  <tr><th>miRNA</th><th>Expression level</th><tr>
+  <%= render @landgraf_library.landgraf_expression_levels %>
+</table>
+<% end %>
+</div></div>
+
+Plugin based on data from <a href="http://www.microrna.org">microrna.org</a>.
+
+</div> <!-- /col -->
+<div id="col-bottom"></div>

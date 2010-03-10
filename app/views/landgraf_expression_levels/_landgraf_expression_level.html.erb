@@ -1,0 +1,5 @@
+<tr class="<%= cycle("even","odd") %>">
+  <td><%= link_to landgraf_expression_level.mature.name, mature_path(landgraf_expression_level.mature) %></td>
+	<td><%= link_to landgraf_expression_level.landgraf_library.name, landgraf_library_path(landgraf_expression_level.landgraf_library) %></td>
+  <td><%= landgraf_expression_level.expression_level %></td>
+</tr>

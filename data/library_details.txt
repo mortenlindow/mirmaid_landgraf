@@ -1,0 +1,257 @@
+Library name	Description	Tissue type code	Tissue type	Malignancy Status code	Species	"Collaborator (source RNA)"	Amount of RNA used for cloning	Protocol used	Ref
+mmu_Cerebellum		9.1.1.0	nervous system, central nervous system, brain	1	mmu		200	1	
+mmu_Cortex		9.1.1.0	nervous system, central nervous system, brain	1	mmu		300	1	
+mmu_Midbrain		9.1.1.0	nervous system, central nervous system, brain	1	mmu		400	1	
+mmu_Brain-WT	whole brain, 4 days old, males, littermates of FMRP KO	9.1.1.0	nervous system, central nervous system, brain	1	mmu	"R. Darnell, darnelr@rockefeller.edu"	200	2	
+mmu_Brain-FMR-KO	whole brain, 4 days old, males, littermates of WT	9.1.1.0	nervous system, central nervous system, brain	1	mmu	"R. Darnell, darnelr@rockefeller.edu"	200	2	
+mmu_SpinalCord		9.1.2.0	nervous system, central nervous system, spinal cord	1	mmu		80	1	
+mmu_Hippocamp-HT22	HT-22	9.1.1.0	nervous system, central nervous system, brain	3	mmu		200	2	
+mmu_Neurobl-N2A	N2A, Control, 48h	9.2.1.0	nervous system, sympathetic ganglion, neuroblastoma cell	4	mmu		200	2	
+mmu_Neurobl-N2A-TPA	N2A, differentiation (20 nM TPA (phorbol ester)), 48h	9.2.1.0	nervous system, sympathetic ganglion, neuroblastoma cell	4	mmu		200	2	
+mmu_Neurobl-N2A-RA	N2A, differentiation (20 µM RA), 48h	9.2.1.0	nervous system, sympathetic ganglion, neuroblastoma cell	4	mmu		200	2	
+mmu_Neurobl-N1E-norm	N1E-115, Control (standard media, 10% FBS), 60h	9.2.1.0	nervous system, sympathetic ganglion, neuroblastoma cell	4	mmu		200	2	
+mmu_Neurobl-N1E-noFBS	N1E-115, differentiation (no FBS in media), 60h	9.2.1.0	nervous system, sympathetic ganglion, neuroblastoma cell	4	mmu		200	2	
+mmuxrno_Neurobl-NG-norm	NG108-15, Control (standard media, 10% FBS), 60h	9.2.1.0	nervous system, sympathetic ganglion, neuroblastoma cell	4	mmuxrno		200	2	
+mmuxrno_Neurobl-NG-RA	NG108-15, differentiation (20 µM RA, 1% FBS), 60h	9.2.1.0	nervous system, sympathetic ganglion, neuroblastoma cell	4	mmuxrno		200	2	
+mmuxrno_Neurobl-NG-dcAMP	NG108-15, differentiation (1mM dibutyryl cAMP, 1% FBS), 60h	9.2.1.0	nervous system, sympathetic ganglion, neuroblastoma cell	4	mmuxrno		200	2	
+mmu_Eye		9.3.1.0	nervous system, sense organ, eye	1	mmu		130	1	
+mmu_Skin		2.3.0.0	connective tissue, skin	1	mmu		600	1	
+mmu_Adipo-diff		2.1.0.0	connective tissue, adipose tissue	1	mmu			1	
+mmu_Adipo-undiff		2.1.0.0	connective tissue, adipose tissue	1	mmu			1	
+mmu_Kidney		7.0.0.0	kidney	1	mmu		600	1	
+mmu_Embryonic-kidney		7.0.0.0	kidney	1	mmu	"T.Benzing, benzing@med1.ukl.uni-freiburg.de"		2	
+mmu_Kidney-collecting-duct		7.2.2.1	kidney, nephron, renal tubule, collecting duct	1	mmu	"T.Benzing, benzing@med1.ukl.uni-freiburg.de"		2	
+mmu_Podocytes-K8-undiff		7.1.0.0	kidney, epithelial cell	3	mmu	"T.Benzing, benzing@med1.ukl.uni-freiburg.de"		2	
+mmu_Podocytes-K8-diff		7.1.0.0	kidney, epithelial cell	3	mmu	"T.Benzing, benzing@med1.ukl.uni-freiburg.de"		2	
+mmu_Glomeruli		7.2.1.1	kidney, nephron, renal corpuscle, glomerulus	1	mmu	"T.Benzing, benzing@med1.ukl.uni-freiburg.de"		2	
+mmu_Liver		8.0.0.0	liver	1	mmu		600	1	
+mmu_Lung		11.1.0.0	respiratory system, lung	1	mmu		600	1	
+mmu_Small-intestine		5.1.2.0	gastrointestinal tract, intestine, small intestine	1	mmu		600	1	
+mmu_Colon		5.1.1.1	gastrointestinal tract, intestine, large intestine, colon	1	mmu		600	1	
+mmu_Heart		1.1.0.0	cardiovascular system, heart	1	mmu		600	1	
+mmu_T-cell-CD8-ctrl	CD8+ cells from mouse spleen	6.1.2.3	hematopoietic system, lymphoid lineage, T lineage, T-lymphocyte CD8	3	mmu	"G. Macino, macino@bce.uniroma1.it"	35	2	
+mmu_T-cell-CD8-polyIC	CD8+ cells from mouse spleen after polyI:C induction	6.1.2.3	hematopoietic system, lymphoid lineage, T lineage, T-lymphocyte CD8	3	mmu	"G. Macino, macino@bce.uniroma1.it"	35	2	
+mmu_T-cell-CD8-conA	CD8+ cells from mouse spleen after concanavalin A induction	6.1.2.3	hematopoietic system, lymphoid lineage, T lineage, T-lymphocyte CD8	3	mmu	"G. Macino, macino@bce.uniroma1.it"	35	2	
+mmu_Spleen		6.2.1.0	hematopoietic system, lymphoid tissue, spleen	1	mmu		600	1	
+mmu_Thymus		6.2.2.0	hematopoietic system, lymphoid tissue, thymus	1	mmu		200	1	
+mmu_B-cell-K1-Tg-naive	naive IgHel transgenic CD19+ B lymphocytes	6.1.1.4	hematopoietic system, lymphoid lineage, B lineage, B-lymphocyte	3	mmu	"A. Tarakhovsky, tarakho@rockefeller.edu"	200	1	
+mmu_B-cell-K2-Tg-anergic	anergic IgHel X Hel transgenic CD19+ B lymphocytes	6.1.1.4	hematopoietic system, lymphoid lineage, B lineage, B-lymphocyte	3	mmu	"A. Tarakhovsky, tarakho@rockefeller.edu"	200	1	
+mmu_B-cell-K4-WT	wild type CD19+ B lymphocytes	6.1.1.4	hematopoietic system, lymphoid lineage, B lineage, B-lymphocyte	3	mmu	"A. Tarakhovsky, tarakho@rockefeller.edu"	200	1	
+mmu_B-cell-spleen-unstim	Splenic B-cells unstimulated	6.1.1.4	hematopoietic system, lymphoid lineage, B lineage, B-lymphocyte	3	mmu	"F.N. Papavasiliou, papavasiliou@rockefeller.edu"	10	2	
+mmu_B-cell-spleen-IL4LPS8h	Splenic B-cells 8h after stimulated with IL-4 (5 ng/ml) and LPS (25 µg/ml)	6.1.1.4	hematopoietic system, lymphoid lineage, B lineage, B-lymphocyte	3	mmu	"F.N. Papavasiliou, papavasiliou@rockefeller.edu"	10	2	
+mmu_B-cell-spleen-IL4LPS24h	Splenic B-cells 24h after stimulated with IL-4 (5 ng/ml) and LPS (25 µg/ml)	6.1.1.4	hematopoietic system, lymphoid lineage, B lineage, B-lymphocyte	3	mmu	"F.N. Papavasiliou, papavasiliou@rockefeller.edu"	10	2	
+mmu_B-cell-spleen-IL4LPS48h	Splenic B-cells 48h after stimulated with IL-4 (5 ng/ml) and LPS (25 µg/ml)	6.1.1.4	hematopoietic system, lymphoid lineage, B lineage, B-lymphocyte	3	mmu	"F.N. Papavasiliou, papavasiliou@rockefeller.edu"	10	2	
+mmu_B-cell-spleen-IL4LPS72h	Splenic B-cells 72h after stimulated with IL-4 (5 ng/ml) and LPS (25 µg/ml)	6.1.1.4	hematopoietic system, lymphoid lineage, B lineage, B-lymphocyte	3	mmu	"F.N. Papavasiliou, papavasiliou@rockefeller.edu"	10	2	
+mmu_DC-unstim	DC from myeloid precursor cells from bone marrow	6.3.8.0	hematopoietic system, myeloid lineage, dendritic cell	3	mmu	"G. Hartmann, gunther.hartmann@ukb.uni-bonn.de"	30	2	
+mmu_DC-stim	DC from myeloid precursor cells from bone marrow, stimulated with endotoxin for 24h	6.3.8.0	hematopoietic system, myeloid lineage, dendritic cell	3	mmu	"G. Hartmann, gunther.hartmann@ukb.uni-bonn.de"	30	2	
+mmu_B-lymphoma-S11	B-lymphoma latently infected with mouse herpesvirus MuHV68	6.1.1.4	hematopoietic system, lymphoid lineage, B lineage, B-lymphocyte	4	mmu	"L. van Dyk, Linda.VanDyk@UCHSC.edu"	200	2	
+mmu_B-lymphoma-S11E	B-lymphoma latently infected with mouse herpesvirus MuHV68. Subclone of S11.	6.1.1.4	hematopoietic system, lymphoid lineage, B lineage, B-lymphocyte	4	mmu	"L. van Dyk, Linda.VanDyk@UCHSC.edu"	200	2	
+mmu_B-lymphoma-A20_OP	Reticulum cell sarcoma, old protocol	6.1.1.4	hematopoietic system, lymphoid lineage, B lineage, B-lymphocyte	4	mmu			1	
+mmu_B-lymphoma-A20_NP	Reticulum cell sarcoma, alternative protocol	6.1.1.4	hematopoietic system, lymphoid lineage, B lineage, B-lymphocyte	4	mmu			3	
+mmu_Beta-pancreas-MIN6	MIN6 pancreatic beta cell line	4.2.2.0	endocrine gland,  pancreatic islet, pancreatic beta cell	1	mmu	"M.Stoffel, stoffel@rockefeller.edu"		1	Poy, M. N., Eliasson, L., Krutzfeldt, J., Kuwajima, S., Ma, X., Macdonald, P. E., Pfeffer, S., Tuschl, T., Rajewsky, N., Rorsman, P. and Stoffel, M. (2004) Nature, 432, 226-30.
+mmu_Alpha-pancreas-TC1	TC1 pancreatic alpha cell line	4.2.1.0	endocrine gland,  pancreatic islet, pancreatic alpha cell	1	mmu	"M.Stoffel, stoffel@rockefeller.edu"		3	Poy, M. N., Eliasson, L., Krutzfeldt, J., Kuwajima, S., Ma, X., Macdonald, P. E., Pfeffer, S., Tuschl, T., Rajewsky, N., Rorsman, P. and Stoffel, M. (2004) Nature, 432, 226-30.
+mmu_Testis		10.2.1.0	reproductive system, male reproductive system, testis	1	mmu		30	1	
+mmu_Spermatogonia-C18	immortalized spermatogoneal cell line	10.2.1.0	reproductive system, male reproductive system, testis	1	mmu		30	2	
+mmu_Ovary		10.1.1.0	reproductive system, female reproductive system, ovary	1	mmu		30	2	
+mmu_Placenta	mouse placenta, total RNA, standard size fraction ( 19-24 nt )	10.1.3.0	reproductive system, female reproductive system, placenta	1	mmu		30	2	
+mmu_Embryo-E11		3.0.0.0	embryo	1	mmu		100	2	
+mmu_Embryo-E12		3.0.0.0	embryo	1	mmu		100	2	
+mmu_ESC-WT-frac-21	19-24nt size fraction male stem cells (Bruce-4 ES)	3.1.0.0	embryo, embryonic stem cell	3	mmu	"K. Rajewsky, rajewsky@cbr.med.harvard.edu"	200	1	
+mmu_ESC-fem	ES cell female	3.1.0.0	embryo, embryonic stem cell	3	mmu		30	2	
+mmu_Teratocarcinoma-F9	F9 (can be induced to differentiate into parietal endoderm)	3.4.1.0	embryo, germ cell tumor, teratocarcinoma	4	mmu		200	2	
+mmu_Teratocarcinoma-P19	P19 (can be induced to differentiate into neural and glial like cells or cardiac and skeletal muscle-like elements)	3.4.1.0	embryo, germ cell tumor, teratocarcinoma	4	mmu		200	2	
+mmu_Fibrobl-3T12-MuHV	3T12 lytically infected with mouse herpesvirus MuHV68 (6h.p.i.)	3.2.0.0	embryo, embryonic fibroblast	3	mmu	"L. van Dyk, Linda.VanDyk@UCHSC.edu"	200	2	
+mmu_Fibrobl-3T12-20	3T12_20µg RNA input	3.2.0.0	embryo, embryonic fibroblast	3	mmu		200	2	
+mmu_Fibrobl-3T12-200	3T12_200µg RNA input	3.2.0.0	embryo, embryonic fibroblast	3	mmu		20	2	
+mmu_Fibrobl-MEF-mock		3.2.0.0	embryo, embryonic fibroblast	4	mmu	"D. A. Leib, Leib@vision.wustl.edu"	200	2	
+mmu_Fibrobl-MEF-HSV1-6h	MEF lytically infected with HSV1 (6hpi)	3.2.0.0	embryo, embryonic fibroblast	4	mmu	"D. A. Leib, Leib@vision.wustl.edu"	200	2	
+mmu_Fibrobl-MEF-HSV1-12h	MEF lytically infected with HSV1 (12hpi)	3.2.0.0	embryo, embryonic fibroblast	4	mmu	"D. A. Leib, Leib@vision.wustl.edu"	200	2	
+mmu_Fibrobl-MEF-HSV2-12h	MEF lytically infected with HSV2  (12hpi)	3.2.0.0	embryo, embryonic fibroblast	4	mmu	"D. A. Leib, Leib@vision.wustl.edu"	200	2	
+rno_Cortex-adult	rno_adult_cortex	9.1.1.0	nervous system, central nervous system, brain	1	rno	"P. Greengard, greengd@rockefeller.edu"	100	2	
+rno_Cortex-embryo	rno_embryonic_cortex, E18	9.1.1.0	nervous system, central nervous system, brain	1	rno	"P. Greengard, greengd@rockefeller.edu"	100	2	
+rno_Hippocamp-adult	rno_adult_hippocampus	9.1.1.0	nervous system, central nervous system, brain	1	rno	"P. Greengard, greengd@rockefeller.edu"	43	2	
+rno_Striatum-adult	rno_adult_striatum	9.1.1.0	nervous system, central nervous system, brain	1	rno	"P. Greengard, greengd@rockefeller.edu"	84	2	
+rno_Striatum-embryo	rno_embryonic_striatum, E18	9.1.1.0	nervous system, central nervous system, brain	1	rno	"P. Greengard, greengd@rockefeller.edu"	100	2	
+rno_Glioma-C6	C6	9.1.2.1	nervous system, central nervous system, spinal cord, glioma	4	rno		200	2	
+rno_Pheochrom-PC12	PC12, Control, 48h	4.1.1.0	endocrine gland,  adrenal gland, pheochromocytoma	4	rno		200	2	
+rno_Pheochrom-PC12-NGF	PC12, differentiation (nerve growth factor  50 ng/ml), 48h	4.1.1.0	endocrine gland,  adrenal gland, pheochromocytoma	4	rno		200	2	
+rno_Neurobl-B35	B35, Control (media with 5%FBS), 72h	9.2.1.0	nervous system, sympathetic ganglion, neuroblastoma cell	4	rno		200	2	
+rno_Neurobl-B35-RA	B35, differentiation (10 uM RA, 5% FBS), 72h	9.2.1.0	nervous system, sympathetic ganglion, neuroblastoma cell	4	rno		200	2	
+rno_Neurobl-B35-noFBS	B35, differentiation (no FBS in media), 72h	9.2.1.0	nervous system, sympathetic ganglion, neuroblastoma cell	4	rno		200	2	
+rno_Neurobl-B35-dcAMP	B35, differentiation (1mM dibutyryl cAMP, 5% FBS), 72h	9.2.1.0	nervous system, sympathetic ganglion, neuroblastoma cell	4	rno		200	2	
+rno_Thyroid-FRTL5		4.4.1.0	endocrine gland,  thyroid gland, FRTL-5 cell	4	rno	"R. di Lauro, rdilauro@unina.it"	100	2	
+rno_Thyroid-FRTL5-Ras	FRTL-5 with inducible ras	4.4.1.0	endocrine gland,  thyroid gland, FRTL-5 cell	4	rno	"R. di Lauro, rdilauro@unina.it"	100	2	
+rno_Thyroid-FRTL5-Ras-tamox-48h	FRTL-5 48 hrs after induction	4.4.1.0	endocrine gland,  thyroid gland, FRTL-5 cell	4	rno	"R. di Lauro, rdilauro@unina.it"	100	2	
+rno_Thyroid-FRTL5-Ras-tamox-7d	FRTL-5  7d after induction	4.4.1.0	endocrine gland,  thyroid gland, FRTL-5 cell	4	rno	"R. di Lauro, rdilauro@unina.it"	100	2	
+hsa_Cerebellum-adult	cerebellar cortex from the hemispheres of a 20 year old healthy male, 6 hours postmortem	9.1.1.0	nervous system, central nervous system, brain	1	hsa	"M. Brownstein, mike@venterinstitute.org"	200	2	
+hsa_Frontal-cortex-adult	sample from Brodman area 9 (superior frontal gyrus) of a 20 year old healthy male, 6 hours postmortem	9.1.1.0	nervous system, central nervous system, brain	1	hsa	"M. Brownstein, mike@venterinstitute.org"	100	2	
+hsa_Midbrain-adult	whole midbrain from caudal edge of mammillary bodies to the caudal edge of the inferior collicle of a 78 year old man, 2 hours postmortem	9.1.1.0	nervous system, central nervous system, brain	1	hsa	"M. Brownstein, mike@venterinstitute.org"	30	2	
+hsa_Hippocamp-adult		9.1.1.0	nervous system, central nervous system, brain	1	hsa	"M. Brownstein, mike@venterinstitute.org"	100	2	
+hsa_Medullobl-DAOY		9.1.1.3	nervous system, central nervous system, brain, medulloblastoma	4	hsa		100	2	
+hsa_Gliobl-SNB19		9.1.1.2	nervous system, central nervous system, brain, glioblastoma cell	4	hsa		100	2	
+hsa_Gliobl-U87		9.1.1.2	nervous system, central nervous system, brain, glioblastoma cell	4	hsa		20	2	
+hsa_Astrocytoma-FC020688	pilocytic astrocytoma (Patient sample)	9.1.1.1	nervous system, central nervous system, brain, astrocytoma cell	4	hsa	"A.Borkhardt, arndt.borkhardt@med.uni-muenchen.de"	17.6	2	
+hsa_Astrocytoma-WL210995	pilocytic astrocytoma (Patient sample)	9.1.1.1	nervous system, central nervous system, brain, astrocytoma cell	4	hsa	"A.Borkhardt, arndt.borkhardt@med.uni-muenchen.de"	2	2	
+hsa_Astroblastoma-DD040800	astroblastoma (Patient sample)	3.5.1.1	embryo, neuroblast, astroblast, astroblastoma	4	hsa	"A.Borkhardt, arndt.borkhardt@med.uni-muenchen.de"	44	2	
+hsa_Neurobl-BE2	BE(2)-M17	9.2.1.0	nervous system, sympathetic ganglion, neuroblastoma cell	4	hsa		200	2	
+hsa_Neurobl-SHSY5Y	SH-SY5Y, Control	9.2.1.0	nervous system, sympathetic ganglion, neuroblastoma cell	4	hsa		200	2	
+hsa_Neurobl-SHSY5Y-RA	SH-SY5Y, differentiation (10 µM RA)	9.2.1.0	nervous system, sympathetic ganglion, neuroblastoma cell	4	hsa		200	2	
+hsa_Neurobl-SHSY5Y-IFNg-24h	SH-SY5Y, apoptosis induction (IFN gamma), 24h	9.2.1.0	nervous system, sympathetic ganglion, neuroblastoma cell	4	hsa		30	2	
+hsa_Fibrobl-CMV	Primary fibroblasts lytically infected with Cytomegalovirus	2.3.2.0	connective tissue, skin, fibroblast	3	hsa	"F.A. Grässer, graesser@med-rz.uni-sb.de"	200	2	
+hsa_Podocytes-Moins-undiff	Podocytes_undiff	7.1.0.0	kidney, epithelial cell	3	hsa	"T.Benzing, benzing@med1.ukl.uni-freiburg.de"		2	
+hsa_Podocytes-Moins-diff	Podocytes_diff	7.1.0.0	kidney, epithelial cell	3	hsa	"T.Benzing, benzing@med1.ukl.uni-freiburg.de"		2	
+hsa_renal_carcinoma-DH1	renal carcinoma derived cell line undifferentiated	7.0.0.0	kidney	4	hsa	"P.Wernet, peter.wernet@uni-duesseldorf.de"	32	2	
+hsa_renal_carcinoma-DH1-diff-3d	renal carcinoma derived cell line. Osteoblasts differentiated for 3d	2.2.0.0	connective tissue, bone	4	hsa	"P.Wernet, peter.wernet@uni-duesseldorf.de"	36	2	
+hsa_renal_carcinoma-DH1-diff-6d	renal carcinoma derived cell line. Osteoblasts differentiated for 6d	2.2.0.0	connective tissue, bone	4	hsa	"P.Wernet, peter.wernet@uni-duesseldorf.de"	20	2	
+hsa_Liver	liver from a 43 year old female, 6 hours post mortem	8.0.0.0	liver	1	hsa	"M. Brownstein, mike@venterinstitute.org"	50	2	
+hsa_Hepatocell-carcinoma-Huh7-HCV	Huh7.5 cell line infected with Hepatitis C Virus. This strain has a single nucleotide substitution of RIG-I rendering an amino acid change in codon 55 (T55I) leading to permissiveness for HCV RNA replication	8.1.0.0	liver, hepatocellular carcinoma cell	4	hsa	"C. Rice, ricec@rockefeller.edu"	600	2	
+hsa_Hepatocell-carcinoma-Huh7-mock	Huh7.5 cell line not infected. This strain has a single nucleotide substitution of RIG-I rendering an amino acid change in codon 55 (T55I) leading to permissiveness for HCV RNA replication	8.1.0.0	liver, hepatocellular carcinoma cell	4	hsa	"C. Rice, ricec@rockefeller.edu"	600	1	
+hsa_Hepatoma-PLC	Hepatoma cell line, HBV infected	8.1.0.0	liver, hepatocellular carcinoma cell	4	hsa 	"C. Rogler, crogler@aecom.yu.edu"	200	2	
+hsa_Hepatoma-HepG2	Hepatoma cell line	8.1.0.0	liver, hepatocellular carcinoma cell	4	hsa	"C. Rogler, crogler@aecom.yu.edu"	100	2	
+hsa_Hepatoma-HepG2-HBV	Hepatoma cell line, HBV infected	8.1.0.0	liver, hepatocellular carcinoma cell	4	hsa	"C. Rogler, crogler@aecom.yu.edu"	100	2	
+hsa_Lung-adenoc-A549-mock	A549 (model for typII epithelial cells)	11.1.1.0	respiratory system, lung, adenocarcinoma cell	4	hsa 		200	2	
+hsa_Lung-adenoc-A549-IFNa	A549-IF alpha treated	11.1.1.0	respiratory system, lung, adenocarcinoma cell	4	hsa 		200	2	
+hsa_Lung-adenoc-A549-IFNb	A549-IF beta treated	11.1.1.0	respiratory system, lung, adenocarcinoma cell	4	hsa 		200	2	
+hsa_Lung-adenoc-A549-IFNg	A549-IF gamma treated	11.1.1.0	respiratory system, lung, adenocarcinoma cell	4	hsa 		200	2	
+hsa_Heart		1.1.0.0	cardiovascular system, heart	1	hsa	"M. Brownstein, mike@venterinstitute.org"	100	2	
+hsa_Spleen	spleen from a 65 year old female, 5 hours post mortem	6.2.1.0	hematopoietic system, lymphoid tissue, spleen	1	hsa	"M. Brownstein, mike@venterinstitute.org"	50	2	
+hsa_HSC-CD34	CD34+ - sorted cells	6.4.0.0	hematopoietic system, pluripotent hematopoietic stem cell	3	hsa	"A.Borkhardt, arndt.borkhardt@med.uni-muenchen.de"	8	2	
+hsa_T-cell-CD4	T helper cells, peripheral blood (pool from 4 healthy donors)	6.1.2.2	hematopoietic system, lymphoid lineage, T lineage, T-lymphocyte CD4	3	hsa		30	2	
+hsa_T-cell-CD4-2	T helper cells	6.1.2.2	hematopoietic system, lymphoid lineage, T lineage, T-lymphocyte CD4	3	hsa	"A.Borkhardt, arndt.borkhardt@med.uni-muenchen.de"	4	2	
+hsa_T-cell-CD4-A301	CD4+ T-cell line	6.1.2.2	hematopoietic system, lymphoid lineage, T lineage, T-lymphocyte CD4	3	hsa	"F.A. Grässer, graesser@med-rz.uni-sb.de"	100	2	
+hsa_T-cell-CD4-ACH2	CD4+ T-cell line, HIV integrated, not replicating	6.1.2.2	hematopoietic system, lymphoid lineage, T lineage, T-lymphocyte CD4	3	hsa	"F.A. Grässer, graesser@med-rz.uni-sb.de"	100	2	
+hsa_T-cell-CD4-ACH2-stim	CD4+ T-cell line, HIV replicating after 10h induction with PMA/Ionomycin	6.1.2.2	hematopoietic system, lymphoid lineage, T lineage, T-lymphocyte CD4	3	hsa	"F.A. Grässer, graesser@med-rz.uni-sb.de"	100	2	
+hsa_T-cell-CD4-naive	CD4+ CD45 RA+(CD45RO-) naïve cells	6.1.2.2	hematopoietic system, lymphoid lineage, T lineage, T-lymphocyte CD4	3	hsa	"G Macino, macino@bce.uniroma1.it"		2	
+hsa_T-cell-CD4-effector	CD4+, CD45RO+, CD27-, CCR7-. Effector cells	6.1.2.2	hematopoietic system, lymphoid lineage, T lineage, T-lymphocyte CD4	3	hsa	"G Macino, macino@bce.uniroma1.it"	15	2	
+hsa_T-cell-CD4-memory	CD4+CD45RO+(CD45RA-) memory cells	6.1.2.2	hematopoietic system, lymphoid lineage, T lineage, T-lymphocyte CD4	3	hsa	"G Macino, macino@bce.uniroma1.it"		2	
+hsa_T-cell-CD8-2	cytotoxic T-cells	6.1.2.3	hematopoietic system, lymphoid lineage, T lineage, T-lymphocyte CD8	3	hsa	"A.Borkhardt, arndt.borkhardt@med.uni-muenchen.de"	3.2	2	
+hsa_T-cell-CD8	cytotoxic T-cells, peripheral blood(pool from 4 healthy donors)	6.1.2.3	hematopoietic system, lymphoid lineage, T lineage, T-lymphocyte CD8	3	hsa	"G Macino, macino@bce.uniroma1.it"	30	2	
+hsa_T-cell-CD8-naive	CD8+, CD45RA+, CD27+, CCR7+	6.1.2.3	hematopoietic system, lymphoid lineage, T lineage, T-lymphocyte CD8	3	hsa	"G Macino, macino@bce.uniroma1.it"	15	2	
+hsa_B-cell-CD19	B cells from peripheral blood	6.1.1.4	hematopoietic system, lymphoid lineage, B lineage, B-lymphocyte	3	hsa		30	2	
+hsa_B-cell-CD19-pool	B cells from peripheral blood (pool from 4 healthy donors)	6.1.1.4	hematopoietic system, lymphoid lineage, B lineage, B-lymphocyte	3	hsa	"G Macino, macino@bce.uniroma1.it"		2	
+hsa_B-cell-CD19-2	B cells from peripheral blood	6.1.1.4	hematopoietic system, lymphoid lineage, B lineage, B-lymphocyte	3	hsa	"A.Borkhardt, arndt.borkhardt@med.uni-muenchen.de"	12	2	
+hsa_NK-CD56	NK cells from peripheral blood (pool from 4 healthy donors)	6.1.3.0	hematopoietic system, lymphoid lineage, natural killer cell	3	hsa		30	2	
+hsa_Monocytes-CD14	Monocyte  cells from peripheral blood (pool from 4 healthy donors)	6.3.7.0	hematopoietic system, myeloid lineage, monocyte	3	hsa		30	2	
+hsa_Granulocytes-CD15	Granulocyte  cells from peripheral blood (pool from 4 healthy donors)	6.3.6.0	hematopoietic system, myeloid lineage, granulocyte	3	hsa		30	2	
+hsa_DC-unstim	myeloid dendritic cells not  stimulated	6.3.8.0	hematopoietic system, myeloid lineage, dendritic cell	3	hsa	"G. Hartmann, gunther.hartmann@ukb.uni-bonn.de"	30	2	
+hsa_DC-stim	myeloid dendritic cells stimulated with endotoxin	6.3.8.0	hematopoietic system, myeloid lineage, dendritic cell	3	hsa	"G. Hartmann, gunther.hartmann@ukb.uni-bonn.de"	30	2	
+hsa_B-ALL-REH	precursor ALL	6.1.1.2	hematopoietic system, lymphoid lineage, B lineage, pre-B-lymphoblast	4	hsa		30	2	
+hsa_B-ALL1-d0	ALL_Down Syndrom	6.1.1.2	hematopoietic system, lymphoid lineage, B lineage, pre-B-lymphoblast	2	hsa	"A.Borkhardt, arndt.borkhardt@med.uni-muenchen.de"	30	2	
+hsa_B-ALL2-d0	pro-B-ALL, initial, MLL/AF4 translocation	6.1.1.1	hematopoietic system, lymphoid lineage, B lineage, pre-pre-B-lymphoblast	2	hsa	"A.Borkhardt, arndt.borkhardt@med.uni-muenchen.de"	5	2	
+hsa_B-ALL2-d29	pro-B-ALL,first remission 4.3 Mio blasts	6.1.1.1	hematopoietic system, lymphoid lineage, B lineage, pre-pre-B-lymphoblast	2	hsa	"A.Borkhardt, arndt.borkhardt@med.uni-muenchen.de"	5	2	
+hsa_B-ALL3-d0	pro-B-All relapse, initial, TEL/AML1 fusion	6.1.1.1	hematopoietic system, lymphoid lineage, B lineage, pre-pre-B-lymphoblast	2	hsa	"A.Borkhardt, arndt.borkhardt@med.uni-muenchen.de"	5	2	
+hsa_B-ALL3-d29	pro-B-All relapse, d29 12.5 Mio blasts	6.1.1.1	hematopoietic system, lymphoid lineage, B lineage, pre-pre-B-lymphoblast	2	hsa	"A.Borkhardt, arndt.borkhardt@med.uni-muenchen.de"	5	2	
+hsa_B-ALL4-d0	cALL_at diagnosis, Down syndrome	6.1.1.3	hematopoietic system, lymphoid lineage, B lineage, pre-B-lymphoblast [cALL]	2	hsa	"A.Borkhardt, arndt.borkhardt@med.uni-muenchen.de"	20	2	
+hsa_B-ALL4-d29	cALL_d29 1st remission 0.4 million blasts, Down syndrome	6.1.1.3	hematopoietic system, lymphoid lineage, B lineage, pre-B-lymphoblast [cALL]	2	hsa	"A.Borkhardt, arndt.borkhardt@med.uni-muenchen.de"	5	2	
+hsa_B-ALL5-d0	cALL_at diagnosis 10 million blasts, , TEL/AML1 fusion	6.1.1.3	hematopoietic system, lymphoid lineage, B lineage, pre-B-lymphoblast [cALL]	2	hsa	"A.Borkhardt, arndt.borkhardt@med.uni-muenchen.de"	5	2	
+hsa_B-ALL5-d29	cALL_d29 1st remission 0.4 million blasts	6.1.1.3	hematopoietic system, lymphoid lineage, B lineage, pre-B-lymphoblast [cALL]	2	hsa	"A.Borkhardt, arndt.borkhardt@med.uni-muenchen.de"	5	2	
+hsa_B-ALL6-d0	pre-B-ALL at diagnosis	6.1.1.2	hematopoietic system, lymphoid lineage, B lineage, pre-B-lymphoblast	2	hsa	"A.Borkhardt, arndt.borkhardt@med.uni-muenchen.de"	5	2	
+hsa_B-ALL6-d29	pre-B-ALL, 1st remission	6.1.1.2	hematopoietic system, lymphoid lineage, B lineage, pre-B-lymphoblast	2	hsa	"A.Borkhardt, arndt.borkhardt@med.uni-muenchen.de"	5	2	
+hsa_B-ALL7-d0	pre-B-ALL relapse at diagnosis	6.1.1.2	hematopoietic system, lymphoid lineage, B lineage, pre-B-lymphoblast	2	hsa	"A.Borkhardt, arndt.borkhardt@med.uni-muenchen.de"	5	2	
+hsa_B-ALL7-d29	pre-B-ALL relapse 10 million blasts	6.1.1.2	hematopoietic system, lymphoid lineage, B lineage, pre-B-lymphoblast	2	hsa	"A.Borkhardt, arndt.borkhardt@med.uni-muenchen.de"	5	2	
+hsa_B-ALL8-d0	pre-B-ALL at diagnosis 60% blasts, 5 million	6.1.1.2	hematopoietic system, lymphoid lineage, B lineage, pre-B-lymphoblast	2	hsa	"A.Borkhardt, arndt.borkhardt@med.uni-muenchen.de"	20	2	
+hsa_B-ALL8-d29	pre-B-ALLd29 2.5  million blasts, <5% blasts, beginning regeneration	6.1.1.2	hematopoietic system, lymphoid lineage, B lineage, pre-B-lymphoblast	2	hsa	"A.Borkhardt, arndt.borkhardt@med.uni-muenchen.de"	20	2	
+hsa_B-ALL8-d43	pre-B-ALL d43 1.4 million blasts, <5% blasts	6.1.1.2	hematopoietic system, lymphoid lineage, B lineage, pre-B-lymphoblast	2	hsa	"A.Borkhardt, arndt.borkhardt@med.uni-muenchen.de"	5	2	
+hsa_B-ALL9-d0	ALL from patient peripheral blood, B cells	6.1.1.2	hematopoietic system, lymphoid lineage, B lineage, pre-B-lymphoblast	2	hsa	"G Macino, macino@bce.uniroma1.it"		2	
+hsa_T-ALL-Jurkat	jurkat cell line	6.1.2.1	hematopoietic system, lymphoid lineage, T lineage, T-lymphoblast	4	hsa		50	2	
+hsa_T-ALL1-d0	ALL from patient peripheral blood, T cells	6.1.2.1	hematopoietic system, lymphoid lineage, T lineage, T-lymphoblast	2	hsa	"G Macino, macino@bce.uniroma1.it"		2	
+hsa_T-ALL2-d0	ALL from patient peripheral blood, T cells	6.1.2.1	hematopoietic system, lymphoid lineage, T lineage, T-lymphoblast	2	hsa	"G Macino, macino@bce.uniroma1.it"		2	
+hsa_T-ALL3-d0	T-ALL, 90% blasts initial (1  Mio blasts)	6.1.2.1	hematopoietic system, lymphoid lineage, T lineage, T-lymphoblast	2	hsa	"A.Borkhardt, arndt.borkhardt@med.uni-muenchen.de"	10	2	
+hsa_T-ALL3-d29	T-ALL,d29 8 Mio blasts, <5% blasts	6.1.2.1	hematopoietic system, lymphoid lineage, T lineage, T-lymphoblast	2	hsa	"A.Borkhardt, arndt.borkhardt@med.uni-muenchen.de"	10	2	
+hsa_T-ALL4-d0	T-ALL, 90% blasts	6.1.2.1	hematopoietic system, lymphoid lineage, T lineage, T-lymphoblast	2	hsa	"A.Borkhardt, arndt.borkhardt@med.uni-muenchen.de"	5	2	
+hsa_T-ALL4-d29	T-ALL d29, 2 million blasts	6.1.2.1	hematopoietic system, lymphoid lineage, T lineage, T-lymphoblast	2	hsa	"A.Borkhardt, arndt.borkhardt@med.uni-muenchen.de"	5	2	
+hsa_T-ALL5-d0	T-ALL, initial 70% blasts 10 million	6.1.2.1	hematopoietic system, lymphoid lineage, T lineage, T-lymphoblast	2	hsa	"A.Borkhardt, arndt.borkhardt@med.uni-muenchen.de"	5	2	
+hsa_T-ALL5-d29	T-ALL d29 1st remission 0.5 million	6.1.2.1	hematopoietic system, lymphoid lineage, T lineage, T-lymphoblast	2	hsa	"A.Borkhardt, arndt.borkhardt@med.uni-muenchen.de"	5	2	
+hsa_B-CLL-EHEB	B-CLL cell line established from 69 year old woman, EBV+	6.1.1.4	hematopoietic system, lymphoid lineage, B lineage, B-lymphocyte	4	hsa		200	2	
+hsa_B-CLL-Mec2	B-CLL cell line established from 62 year old man, EBV+	6.1.1.4	hematopoietic system, lymphoid lineage, B lineage, B-lymphocyte	4	hsa		200	2	
+hsa_B-CLL1	sample from B-CLL patient1 progressive, igvh mutated	6.1.1.4	hematopoietic system, lymphoid lineage, B lineage, B-lymphocyte	2	hsa	"G Macino, macino@bce.uniroma1.it"		2	
+hsa_B-CLL4	sample from B-CLL patient4 stable, igvh unmutated	6.1.1.4	hematopoietic system, lymphoid lineage, B lineage, B-lymphocyte	2	hsa	"G Macino, macino@bce.uniroma1.it"		2	
+hsa_B-CLL5	sample from B-CLL patient5 progressive, igvh unmutated,ZAP70+, no del13q14,del17p13, trisomy 12,del11q23	6.1.1.4	hematopoietic system, lymphoid lineage, B lineage, B-lymphocyte	2	hsa	"G Macino, macino@bce.uniroma1.it"		2	
+hsa_B-CLL5_2	sample from B-CLL patient5 progressive, igvh unmutated,ZAP70+, no del13q14,del17p13, trisomy 12,del11q23	6.1.1.4	hematopoietic system, lymphoid lineage, B lineage, B-lymphocyte	2	hsa	"G Macino, macino@bce.uniroma1.it"		2	
+hsa_B-CLL6	sample from B-CLL patient6 stable, igvh mutated	6.1.1.4	hematopoietic system, lymphoid lineage, B lineage, B-lymphocyte	2	hsa	"G Macino, macino@bce.uniroma1.it"		2	
+hsa_B-CLL7	sample from B-CLL patient7  igvh unmutated, ZAP70+, no del13q14,del17p13, trisomy 12,del11q23	6.1.1.4	hematopoietic system, lymphoid lineage, B lineage, B-lymphocyte	2	hsa	"G Macino, macino@bce.uniroma1.it"		2	
+hsa_B-CLL8	sample from B-CLL patient8 stable, igvh mutated	6.1.1.4	hematopoietic system, lymphoid lineage, B lineage, B-lymphocyte	2	hsa	"G Macino, macino@bce.uniroma1.it"		2	
+hsa_B-CLL11	sample from B-CLL patient11,  stable, igvh mutated, del13q14 pos no del17p13, trisomy 12,del11q23	6.1.1.4	hematopoietic system, lymphoid lineage, B lineage, B-lymphocyte	2	hsa	"G Macino, macino@bce.uniroma1.it"		2	
+hsa_B-CLL12	sample from B-CLL patient12 stable, igvh na	6.1.1.4	hematopoietic system, lymphoid lineage, B lineage, B-lymphocyte	2	hsa	"G Macino, macino@bce.uniroma1.it"		2	
+hsa_B-CLL13	sample from B-CLL patient13  igvh mutated	6.1.1.4	hematopoietic system, lymphoid lineage, B lineage, B-lymphocyte	2	hsa	"G Macino, macino@bce.uniroma1.it"		2	
+hsa_AML-THP1	AML FAB M5 cell line, monocytic	6.3.4.0	hematopoietic system, myeloid lineage, monocyte FAB M5	4	hsa		200	2	
+hsa_AML-Kas1	Kasumi-1, with ETO-AML1 fusion protein (t(8;21), AML FAB M2 cell line, myeloblastic with differentiation	6.3.1.0	hematopoietic system, myeloid lineage, myeloblast FAB M2	4	hsa		30	2	
+hsa_AML-HL60	HL-60 cell line, AML FAB M3, promyelocytic leukemia	6.3.2.0	hematopoietic system, myeloid lineage, pro-myelocyte FAB  M3	4	hsa		30	2	
+hsa_AML1-d0	AML M6 40%Blasts patient sample	6.3.5.0	hematopoietic system, myeloid lineage, erythrocyte FAB M6	2	hsa	"A.Borkhardt, arndt.borkhardt@med.uni-muenchen.de"	5	2	
+hsa_AML1-d29	AML M6 2.8 Mio Blasts patient sample	6.3.5.0	hematopoietic system, myeloid lineage, erythrocyte FAB M6	2	hsa	"A.Borkhardt, arndt.borkhardt@med.uni-muenchen.de"	5	2	
+hsa_AML2-d0	AML 80% blasts initial (10Mio), AML M4, AF10/calm Rearrangement (t(10;11)(p12-14;q14-21))	6.3.3.0	hematopoietic system, myeloid lineage, myelomonocyte FAB M4	2	hsa	"A.Borkhardt, arndt.borkhardt@med.uni-muenchen.de"	5	2	
+hsa_AML2-d29	AML d29 no remission (10Mio), AML M4, AF10/calm Rearrangement (t(10;11)(p12-14;q14-21))	6.3.3.0	hematopoietic system, myeloid lineage, myelomonocyte FAB M4	2	hsa	"A.Borkhardt, arndt.borkhardt@med.uni-muenchen.de"	5	2	
+hsa_AML3-d0	AML, 90% blasts initial, AML-M4	6.3.3.0	hematopoietic system, myeloid lineage, myelomonocyte FAB M4	2	hsa	"A.Borkhardt, arndt.borkhardt@med.uni-muenchen.de"	5	2	
+hsa_AML3-d29	AML, d29 10 Mio blasts, AML-M4	6.3.3.0	hematopoietic system, myeloid lineage, myelomonocyte FAB M4	2	hsa	"A.Borkhardt, arndt.borkhardt@med.uni-muenchen.de"	5	2	
+hsa_Hodgkin-L428	Hodgkin Lymphoma cell line	6.1.1.9	hematopoietic system, lymphoid lineage, B lineage, Hodgkin Lymphoma cell	4	hsa	"W. Tam, wtam@med.cornell.edu"	30	2	
+hsa_Hodgkin-KMH2	Hodgkin Lymphoma cell line	6.1.1.9	hematopoietic system, lymphoid lineage, B lineage, Hodgkin Lymphoma cell	4	hsa	"W. Tam, wtam@med.cornell.edu"	30	2	
+hsa_Hodgkin-L591	Hodgkin Lymphoma cell line, EBV +	6.1.1.9	hematopoietic system, lymphoid lineage, B lineage, Hodgkin Lymphoma cell	4	hsa	"W. Tam, wtam@med.cornell.edu"	30	2	
+hsa_Hodgkin-L1236	Hodgkin Lymphoma cell line	6.1.1.9	hematopoietic system, lymphoid lineage, B lineage, Hodgkin Lymphoma cell	4	hsa	"W. Tam, wtam@med.cornell.edu"	30	2	
+hsa_BL-BCBL1-new	Latently infected with KSHV/HHV8. Cloned with alternate protocol	6.1.1.4	hematopoietic system, lymphoid lineage, B lineage, B-lymphocyte	4	hsa	"F.A. Grässer, graesser@med-rz.uni-sb.de"	200	3	
+hsa_BL-BCBL1-old	Latently infected with KSHV/HHV8. Cloned with classic protocol	6.1.1.4	hematopoietic system, lymphoid lineage, B lineage, B-lymphocyte	4	hsa	"F.A. Grässer, graesser@med-rz.uni-sb.de"	200	1	
+hsa_Burkitt-BL41-95-EBV	Latently infected with EBV	6.1.1.6	hematopoietic system, lymphoid lineage, B lineage, Burkitt Lymphoma cell	4	hsa	"F.A. Grässer, graesser@med-rz.uni-sb.de"	600	2	
+hsa_Burkitt-BL41-mock		6.1.1.6	hematopoietic system, lymphoid lineage, B lineage, Burkitt Lymphoma cell	4	hsa	"F.A. Grässer, graesser@med-rz.uni-sb.de"	600	2	
+hsa_Burkitt-Raji	Burkitt lymphoma cell line established from a 12 year old boy, EBV+	6.1.1.6	hematopoietic system, lymphoid lineage, B lineage, Burkitt Lymphoma cell	4	hsa		200	2	
+hsa_Burkitt-CA-46	EBV-	6.1.1.6	hematopoietic system, lymphoid lineage, B lineage, Burkitt Lymphoma cell	4	hsa	"A.Borkhardt, arndt.borkhardt@med.uni-muenchen.de"	200	2	
+hsa_Burkitt-DG-75	Burkitt lymphoma cell line established from a 10 year old boy, EBV+	6.1.1.6	hematopoietic system, lymphoid lineage, B lineage, Burkitt Lymphoma cell	4	hsa	"A.Borkhardt, arndt.borkhardt@med.uni-muenchen.de"	200	2	
+hsa_Burkitt-patient1	Burkitt Lymphoma patient samples (bone marrow)	6.1.1.6	hematopoietic system, lymphoid lineage, B lineage, Burkitt Lymphoma cell	2	hsa	"A.Borkhardt, arndt.borkhardt@med.uni-muenchen.de"	2.5	2	
+hsa_Burkitt-patient2	Burkitt Lymphoma patient samples (bone marrow)	6.1.1.6	hematopoietic system, lymphoid lineage, B lineage, Burkitt Lymphoma cell	2	hsa	"A.Borkhardt, arndt.borkhardt@med.uni-muenchen.de"	2.5	2	
+hsa_Burkitt-patient3	Burkitt-Lymphom, t (8;14) c-myc-Rearrangement, 82-90% blasts	6.1.1.6	hematopoietic system, lymphoid lineage, B lineage, Burkitt Lymphoma cell	2	hsa	"A.Borkhardt, arndt.borkhardt@med.uni-muenchen.de"	10	2	
+hsa_DLBCL-SUDHL6	DLBL cell line derived from 43 year old man, EBV- (Germinal Center)	6.1.1.7	hematopoietic system, lymphoid lineage, B lineage, large B-cell lymphoma cell	4	hsa	"W. Tam, wtam@med.cornell.edu"		2	
+hsa_DLBCL-Ly1	OCI-Ly1, DLBCL cell line, relapse sample t(14;18) (Germinal Center)	6.1.1.7	hematopoietic system, lymphoid lineage, B lineage, large B-cell lymphoma cell	4	hsa	"W. Tam, wtam@med.cornell.edu"		2	
+hsa_DLBCL-LY3	OCI-Ly3, relapse sample, produces IL-6 (act B cell)	6.1.1.7	hematopoietic system, lymphoid lineage, B lineage, large B-cell lymphoma cell	4	hsa	"W. Tam, wtam@med.cornell.edu"	30	1	
+hsa_DLBCL-DLBL1	diffuse large B cell lymphoma(act B cell) Patient samples	6.1.1.7	hematopoietic system, lymphoid lineage, B lineage, large B-cell lymphoma cell	2	hsa	"W. Tam, wtam@med.cornell.edu"		2	
+hsa_DLBCL-DLBL2	diffuse large B cell lymphoma(act B cell) Patient samples	6.1.1.7	hematopoietic system, lymphoid lineage, B lineage, large B-cell lymphoma cell	2	hsa	"W. Tam, wtam@med.cornell.edu"		2	
+hsa_DLBCL-DLBL3	diffuse large B cell lymphoma(Germinal center) Patient samples	6.1.1.7	hematopoietic system, lymphoid lineage, B lineage, large B-cell lymphoma cell	2	hsa	"W. Tam, wtam@med.cornell.edu"		2	
+hsa_DLBCL-DLBL4	diffuse large B cell lymphoma(Germinal center) Patient samples	6.1.1.7	hematopoietic system, lymphoid lineage, B lineage, large B-cell lymphoma cell	2	hsa	"W. Tam, wtam@med.cornell.edu"		2	
+hsa_MZ-Lymphoma-MZ2	marginal zone lymphoma patient sample	6.1.1.10	hematopoietic system, lymphoid lineage, B lineage, marginal zone lymphoma cell	2	hsa	"W. Tam, wtam@med.cornell.edu"	20	2	
+hsa_Follic-Lymphoma-F1	follicular Lymphoma patient sample	6.1.1.8	hematopoietic system, lymphoid lineage, B lineage, follicular lymphoma cell	2	hsa	"W. Tam, wtam@med.cornell.edu"	20	2	
+hsa_Follic-Lymphoma-F2	follicular Lymphoma patient sample	6.1.1.8	hematopoietic system, lymphoid lineage, B lineage, follicular lymphoma cell	2	hsa	"W. Tam, wtam@med.cornell.edu"	20	2	
+hsa_MC-Lymphoma-Granta-519	mantel cell lymphoma cell line established from relapse of a 58 year old woman, EBV+	6.1.1.5	hematopoietic system, lymphoid lineage, B lineage, mantel cell lymphoma cell	4	hsa		200	2	
+hsa_MC-Lymphoma-JVM-2	mantel cell lymphoma cell line established from 63 year old woman, EBV+	6.1.1.5	hematopoietic system, lymphoid lineage, B lineage, mantel cell lymphoma cell	4	hsa		200	2	
+hsa_MC-Lymphoma-Jeko-1	EBV-	6.1.1.5	hematopoietic system, lymphoid lineage, B lineage, mantel cell lymphoma cell	4	hsa		200	2	
+hsa_MC-Lymphoma-M1	mantel cell lymphoma patient sample	6.1.1.5	hematopoietic system, lymphoid lineage, B lineage, mantel cell lymphoma cell	2	hsa	"W. Tam, wtam@med.cornell.edu"	20	2	
+hsa_MC-Lymphoma-M2	mantel cell lymphoma patient sample	6.1.1.5	hematopoietic system, lymphoid lineage, B lineage, mantel cell lymphoma cell	2	hsa	"W. Tam, wtam@med.cornell.edu"	20	2	
+hsa_Plasmocytoma-U266		6.1.1.11	hematopoietic system, lymphoid lineage, B lineage, plasmacytoma cell	4	hsa	"W. Tam, wtam@med.cornell.edu"		1	
+hsa_Pituitary	pituitary gland from a 50 year old male, 2 hours post mortem	4.3.0.0	endocrine gland,  pituitary gland	1	hsa	"M. Brownstein, mike@venterinstitute.org"	100	2	
+hsa_Adrenocarcinoma-SW-mock	SW13 cell line	4.1.0.0	endocrine gland,  adrenal gland	4	hsa	"C. Rice, ricec@rockefeller.edu"	600	1	Pfeffer, S., Sewer, A., Lagos-Quintana, M., Sheridan, R., Sander, C., Grasser, F. A., van Dyk, L. F., Ho, C. K., Shuman, S., Chien, M., et al. (2005). Identification of microRNAs of the herpesvirus family. advanced online publication.
+hsa_Adrenocarcinoma-SW-YFV	SW13 cell line infected with Yellow Fever Virus	4.1.0.0	endocrine gland,  adrenal gland	4	hsa	"C. Rice, ricec@rockefeller.edu"	600	1	Pfeffer, S., Sewer, A., Lagos-Quintana, M., Sheridan, R., Sander, C., Grasser, F. A., van Dyk, L. F., Ho, C. K., Shuman, S., Chien, M., et al. (2005). Identification of microRNAs of the herpesvirus family. advanced online publication.
+hsa_Thyroid		4.4.0.0	endocrine gland,  thyroid gland	1	hsa	"M. Brownstein, mike@venterinstitute.org"	100	2	
+hsa_Pancreatic-islets		4.2.0.0	endocrine gland,  pancreatic islet	1	hsa	"M. Brownstein, mike@venterinstitute.org"	100	2	
+hsa_USSC	unrestricted somatic stem cells from umbilical cord	3.1.0.0	embryo, embryonic stem cell	3	hsa	"P.Wernet, peter.wernet@uni-duesseldorf.de"	35	2	
+hsa_USSC-d1	unrestricted somatic stem cells from umbilical cord induced 1 day to osteoblasts	3.1.0.0	embryo, embryonic stem cell	3	hsa	"P.Wernet, peter.wernet@uni-duesseldorf.de"	30	2	
+hsa_USSC-d3	unrestricted somatic stem cells from umbilical cord induced 3 day to osteoblasts	3.1.0.0	embryo, embryonic stem cell	3	hsa	"P.Wernet, peter.wernet@uni-duesseldorf.de"	30	2	
+hsa_USSC-d7	unrestricted somatic stem cells from umbilical cord induced 7 day to osteoblasts	2.2.0.0	connective tissue, bone	3	hsa	"P.Wernet, peter.wernet@uni-duesseldorf.de"	25	2	
+hsa_Teratocarcinoma-NT2-norm	NT2/D1, Control	3.4.1.0	embryo, germ cell tumor, teratocarcinoma	4	hsa		200	2	
+hsa_Teratocarcinoma-NT2-RA	NT2/D1, differentiation (10 µM RA) for 6 weeks	3.4.1.0	embryo, germ cell tumor, teratocarcinoma	4	hsa		200	2	
+hsa_Teratocarcinoma-PA1	PA1	3.4.1.0	embryo, germ cell tumor, teratocarcinoma	4	hsa		200	2	
+hsa_Seminoma-2073	NCCIT cell line	3.4.2.0	embryo, germ cell tumor, seminoma	4	hsa		200	4	
+hsa_Seminoma-2073-NE1	NCCIT cell line, nuclear extract	3.4.2.0	embryo, germ cell tumor, seminoma	4	hsa		100	2	
+hsa_Kidney-embryo-HEK293	HEK293 cell line	3.3.0.0	embryo, embryonic kidney cell	4	hsa			4	
+hsa_Kidney-embryo-HEK293-exp	HEK293 cell line, exponential growth	3.3.0.0	embryo, embryonic kidney cell	4	hsa		100	2	
+hsa_Kidney-embryo-HEK293-6d	HEK293 cell line, 6 days of growth with contact inhibition	3.3.0.0	embryo, embryonic kidney cell	4	hsa		100	2	
+hsa_Kidney-embryo-HEK293-Fas12	HEK293 cell line, treated with FAS12	3.3.0.0	embryo, embryonic kidney cell	4	hsa		100	2	
+hsa_Ovary	ovary from a 42 year old female, 11 hours post mortem	10.1.1.0	reproductive system, female reproductive system, ovary	1	hsa	"M. Brownstein, mike@venterinstitute.org"	100	2	
+hsa_Testis	testis from a 73 year old male, 2 hours post mortem	10.2.1.0	reproductive system, male reproductive system, testis	1	hsa	"M. Brownstein, mike@venterinstitute.org"	100	2	
+hsa_Uterus		10.1.2.0	reproductive system, female reproductive system, uterus	1	hsa	"M. Brownstein, mike@venterinstitute.org"	100	2	
+hsa_Placenta		10.1.3.0	reproductive system, female reproductive system, placenta	1	hsa	"M. Brownstein, mike@venterinstitute.org"	50	2	
+hsa_Cervix-HeLa-adh	HeLa S3, adherently grown	10.1.2.1	reproductive system, female reproductive system, uterus, cervical carcinoma cell	4	hsa		100	2	
+hsa_Cervix-HeLa-susp	HeLa S3, grown in suspension	10.1.2.1	reproductive system, female reproductive system, uterus, cervical carcinoma cell	4	hsa		100	2	
+hsa_Cervix-HeLa-IFNa	HeLa S3-IF alpha  treated	10.1.2.1	reproductive system, female reproductive system, uterus, cervical carcinoma cell	4	hsa		200	2	
+hsa_Cervix-HeLa-IFNg	HeLa S3-IF gamma treated	10.1.2.1	reproductive system, female reproductive system, uterus, cervical carcinoma cell	4	hsa		200	2	
+hsa_Cervix-HeLa-CD4	HeLa stably expressing CD4	10.1.2.1	reproductive system, female reproductive system, uterus, cervical carcinoma cell	4	hsa	"D. Ho, dho@rockefeller.edu"	600	1	
+hsa_Cervix-HeLa-HIV	HeLa CD4 infected with HIV	10.1.2.1	reproductive system, female reproductive system, uterus, cervical carcinoma cell	4	hsa	"D. Ho, dho@rockefeller.edu"	600	1	
+hsa_Cervix-HeLa-adh-2	HeLa S3 replica	10.1.2.1	reproductive system, female reproductive system, uterus, cervical carcinoma cell	4	hsa		50	2	
+hsa_Epididymis	epididymis from a 73 year old man, 2 hours post mortem	10.2.2.0	reproductive system, male reproductive system, epididymis	1	hsa	"M. Brownstein, mike@venterinstitute.org"	100	2	
+hsa_Prostata		10.2.3.0	reproductive system, male reproductive system, prostate gland	1	hsa	"M. Brownstein, mike@venterinstitute.org"	100	2	
+hsa_Breast-epith-fiborcystic-MCF10A	Fibrocystic Disease. Non tumorigenic epithelial cell line. ER- ; PgR-	10.1.4.3	reproductive system, female reproductive system, breast, mammary epithelium	3	hsa	"N.Rosen, rosenn@mskcc.org"	200	2	
+hsa_Breast-adenocarcinoma-MCF7	Invasive Ductal Carcinoma (IDC). Expresses WNT7B oncogene. ER+; PgR+	10.1.4.1	reproductive system, female reproductive system, breast, adenocarcinoma	4	hsa	"N.Rosen, rosenn@mskcc.org"	200	3	
+hsa_Breast-duct-HCC38	IDC. Her2/neu- ; P53+. ER- ; PgR-	10.1.4.2	reproductive system, female reproductive system, breast, ductal carcinoma	4	hsa		200	2	
+hsa_Breast-duct-carcinoma-SKBR3	IDC. Overexpresses Her2. ER- ; PgR-	10.1.4.2	reproductive system, female reproductive system, breast, ductal carcinoma	4	hsa	"N.Rosen, rosenn@mskcc.org"	200	3	
+hsa_Breast-invasive-duct-BT474	IDC. ER+ ; PgR+	10.1.4.2	reproductive system, female reproductive system, breast, ductal carcinoma	4	hsa		200	2	
+hsa_Breast-invasive-duct-T47	IDC. Expresses WNT7B oncogene. ER+ ; PgR+	10.1.4.2	reproductive system, female reproductive system, breast, ductal carcinoma	4	hsa		200	2	
+hsa_Osteosarcoma-U2Os-uninduced	U2Os with EWS/WT1 fusion protein-not induced	2.2.1.0	connective tissue, bone, osteosarcoma cell	4	hsa	"M.Ladanyi, ladanyim@MSKCC.ORG"	200	2	
+hsa_Osteosarcoma-U2Os-ind-24h	U2Os-EWS/WT1 fusion protein-induced	2.2.1.0	connective tissue, bone, osteosarcoma cell	4	hsa	"M.Ladanyi, ladanyim@MSKCC.ORG"	200	2	
+hsa_Osteosarcoma-SAOS2		2.2.1.0	connective tissue, bone, osteosarcoma cell	4	hsa		300	1	
+hsa_Ewing-Sarcoma-A673	Ewing sarcoma cell line with EWS/FLI1 fusion protein (der(22)t(11;22)(q24;q12) and der(13)t(13;11;22) fusion chromosomes)	2.2.2.0	connective tissue, bone, Ewing sarcoma cell	4	hsa	"M.Ladanyi, ladanyim@MSKCC.ORG"	200	2	
+hsa_Desmo-tumor-JN-Dsrct	Dsrct with EWS/WT1 fusion protein	2.2.3.0	connective tissue, bone, desmoplastic small round cell tumor	4	hsa	"M.Ladanyi, ladanyim@MSKCC.ORG"	200	2

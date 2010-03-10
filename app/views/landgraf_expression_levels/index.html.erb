@@ -1,0 +1,23 @@
+<div id="col-top"></div>
+<div id="col">
+
+<h3>Listing Expression Levels</h3>
+
+<div id="searchinfo"><%= page_entries_info @landgraf_expression_levels %></div>
+
+
+
+
+<%= will_paginate @landgraf_expression_levels, :params => params %>
+<br>
+<% if !@landgraf_expression_levels.empty? %>
+<table class="search">
+  <tr><th>microRNA</th><th>Library</th><th>Relative Expression Level</th><tr>
+  <%= render @landgraf_expression_levels %>
+</table>
+<% end %>
+
+Plugin based on data from <a href="http://www.microrna.org">microrna.org</a>.
+
+</div> <!-- /col -->
+<div id="col-bottom"></div>

@@ -1,0 +1,6 @@
+<tr class="<%= cycle("even","odd") %>">
+  <td><%= link_to landgraf_library.name, landgraf_library_path(landgraf_library) %></td>
+	<td><%= landgraf_library.description %></td>
+	<td><%= landgraf_library.malignancy_status %></td>
+	<td><%= landgraf_library.landgraf_tissue_type.description %></td>
+</tr>

@@ -1,0 +1,20 @@
+
+<p>Expression levels for mature <%= @mature.name %> observed by Landgraf et al. (data from <a href="http://www.microrna.org">microrna.org</a>. Ordered by descending normalised expression level</p>
+<% if !list_for_mature.empty? %>
+<table class="search">
+<tr><th>Library</th><th>Expression level</th><tr>
+
+<% list_for_mature.sort_by{|x| x.expression_level}.reverse[0,10].each do |expression_level| %>
+
+<tr class="<%= cycle("even","odd") %>">
+  <td><%= link_to expression_level.landgraf_library.name, landgraf_library_path(expression_level.landgraf_library) %></td>
+  <td><%= expression_level.expression_level %></td>
+</tr>
+
+<% end %>
+
+</table>
+ 
+The total number of time <%= @mature.name %> was cloned in all libraries is <strong><%= @mature.landgraf_clone_count.total_counts %></strong>
+
+<% end %>
