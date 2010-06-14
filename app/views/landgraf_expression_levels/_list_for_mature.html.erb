@@ -1,5 +1,5 @@
 
-<p>Expression levels for mature <%= @mature.name %> observed by Landgraf et al. (data from <a href="http://www.microrna.org">microrna.org</a>. Ordered by descending normalised expression level</p>
+<p>The top ten libraries, where <%= @mature.name %> was most often observed by Landgraf et al. (data from <a href="http://www.microrna.org">microrna.org</a>.)</p>
 <% if !list_for_mature.empty? %>
 <table class="search">
 <tr><th>Library</th><th>Expression level</th><tr>
@@ -16,5 +16,8 @@
 </table>
  
 The total number of time <%= @mature.name %> was cloned in all libraries is <strong><%= @mature.landgraf_clone_count.total_counts %></strong>
+
+<p><%= link_to "View all Landgraf et al. expression data for #{@mature.name}", mature_landgraf_expression_levels_path(@mature) %> (instead of the top-ten shown here).</p>
+
 
 <% end %>
