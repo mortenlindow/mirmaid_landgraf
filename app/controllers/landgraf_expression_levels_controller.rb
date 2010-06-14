@@ -18,7 +18,7 @@ class LandgrafExpressionLevelsController < ApplicationController
     respond_to do |format|
       format.html do
         if @landgraf_expression_levels # subselect
-          @landgraf_expression_levels = LandgrafExpressionLevel.paginate @landgraf_expression_levels.map{|x| x.id}, :page => params[:page], :per_page => 12, :order => "landgraf_library_id, mature_id"
+          @landgraf_expression_levels = LandgrafExpressionLevel.paginate @landgraf_expression_levels.map{|x| x.id}, :page => params[:page], :per_page => 12, :order => "expression_level DESC"
         else #all
           @landgraf_expression_levels = LandgrafExpressionLevel.paginate :page => params[:page], :per_page => 12, :order => "landgraf_library_id, mature_id"
         end        
